@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("assets/fonts/images/background-mobile.png");
+    font-family:"Inconsolata",sans-serif;
+    color:hsl(0, 0%, 100%);
+    line-height:1.5;
+    letter-spacing:1.2;
+    display:block;
+    width:85%;
+    max-width:800px;
+    margin:0 auto;
+}
+/* Image Testing */
+.container{
+    background-image: url("assets/fonts/images/pattern-squiggly-line-bottom-mobile-tablet.svg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+    height:100%;
+}
+main{
+    background-image: url("assets/fonts/images/pattern-lines.svg");
+    
+}
+
+/* Typography */
+
+h1,p{
+    text-align:center;
+}
+
+h1{
+    font-weight:700;
+}
+
+p{
+    font-weight:400;
+
+}
+
+
+
+/*Layout*/
+
+/* main{
+   
+} */
+
+.heading-content,.upload-info{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ gap:1em;
+}
+
+.content-title{
+    padding:2em 0;
+}
+
+.content-subject,.content-title{
+    font-weight:700;
+}
+
+.content-title,.content-subtitle{
+    font-size:1.2rem;
+}
+
+.title-logo{
+    width:20px;
+}
+.content-title{
+    background-image: url("assets/fonts/images/pattern-squiggly-line-top.svg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    font-size:1.3rem;
+}
+
+
+form{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+input{
+    color:hsl(0, 0%, 100%);
+}
+input,button{
+    padding:1em;
+    border:none;
+    border-radius:10px ;
+    margin:1em 0;
+}
+input{
+    border:2px solid hsl(245, 15%, 58%);
+}
+
+.error-info{
+    visibility:hidden ;
+}
+.upload-text{
+    text-align: left;
+}
+
+.file-upload,input{
+    background-color: hsl(252, 6%, 83%,0.1);
+}
+
+.file-upload{
+    border:2px dashed hsl(245, 15%, 58%);
+    border-radius:10px;
+    padding:1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:hsl(252, 6%, 83%);
+    
+}
+
+.image-options{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    gap:2em;
+}
+
+.file-img{
+    border:2px solid hsl(245, 19%, 35%);
+    border-radius:15px;
+    padding:.6em;
+
+}
+
+
+.info-text{
+    color:hsl(252, 6%, 83%);
+    font-size:.9em;
+}
+
+.upload-info,.error-container{
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    gap:1em;
+}
+
+upload-info{
+    color:orange;
+}
+
+input[type="file"]{
+    display:none;
+    visibility:hidden;
+}
+
+
+button{
+    font-size:1rem;
+    font-weight:700;
+    margin-top:1em;
+    color:hsl(248, 70%, 10%);
+    background-color: hsl(7, 88%, 67%);
+
+
+}
+
